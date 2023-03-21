@@ -1,0 +1,83 @@
+/*# sourceMappingURL=main.css.map */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+}
+form{
+    width: 400px;
+    background: #fff;
+    border: 2px solid gray;
+    padding: 35px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #222222;
+    text-align: center;
+}
+.title:hover{
+    color: coral;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #222222;
+    margin-top: 25px;
+}
+.form-input{
+    height: 35px;
+    background: none;
+    border: 2px solid #222222;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #222222;
+    outline: none;
+    border-radius: 25px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-top: 35px;
+    background: none;
+    border-radius: 20px;
+    border: 3px solid lightseagreen;
+    color: #222222;
+    outline: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background: aqua;
+    transition: .9s;
+}
+.password__label{
+    position: relative;
+}
+.password__btn:active{
+
+}
+.password__btn{
+    position: absolute;
+    right: 18px;
+    top: 40px;
+    cursor: pointer;
+}
+.form-input:focus{
+    background: #222222;
+    color: #ffffff;
+}
